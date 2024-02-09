@@ -1,10 +1,10 @@
-export default function Button({children, handleClick, buttonType, btnActive}) {
+export default function Button({children, handleClick, buttonType, disabled}) {
     return (
         <button
         className="button"
         onClick={handleClick}
         type={buttonType}
-        disabled={btnActive}
+        disabled={disabled}
         >
             {children}
         </button>

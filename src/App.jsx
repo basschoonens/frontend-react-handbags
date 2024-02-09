@@ -11,7 +11,6 @@ import OurStory from "./assets/our_story.png"
 
 function App() {
 
-
   return (
       <>
         <h1>Handbags & Purses</h1>
@@ -19,17 +18,15 @@ function App() {
             <Button
             handleClick={() => (console.log("to the collection"))}
             buttonType="button"
-            btnActive={false}
             >to the collection</Button>
             <Button
             handleClick={() => (console.log("shop all bags"))}
             buttonType="button"
-            btnActive={false}
             >shop all bags</Button>
             <Button
             handleClick={() => (console.log("pre-orders"))}
             buttonType="button"
-            btnActive={true}
+            disabled
             >pre-orders</Button>
         </nav>
 
