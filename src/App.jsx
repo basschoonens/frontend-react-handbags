@@ -48,6 +48,7 @@ function App() {
               <Product
                   label="New collection"
                   img={Bag3}
+
                   imgDescription="The simple bag"
                   price="€ 300,-"
                   title="The simple bag"
@@ -67,11 +68,9 @@ function App() {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad animi consequuntur dolorum explicabo fugit, minima nesciunt obcaecati quas saepe.
                 </p>
               </Tile>
-              <Tile>
-                  <img src={Brand} alt="Brand"/>
+              <Tile image={Brand}>
               </Tile>
-              <Tile>
-                  <img src={OurStory} alt="Our Story"/>
+              <Tile image={OurStory}>
               </Tile>
               <Tile title="Our Story">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto assumenda dignissimos minus nemo nulla quas reiciendis rem tenetur!</p>
